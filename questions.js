@@ -83,8 +83,8 @@ function parseAnswers(text) {
 }
 
 async function loadQuestions() {
-    const questionsText = await loadTextFile('Game%20Info/Questions.txt');
-    const answersText = await loadTextFile('Game%20Info/Answers.txt');
+    const questionsText = await loadTextFile('Game-info/Questions.txt');
+    const answersText = await loadTextFile('Game-info/Answers.txt');
 
     const questions = parseQuestions(questionsText);
     const answers = parseAnswers(answersText);
