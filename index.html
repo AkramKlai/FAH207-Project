@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snakes & Ladders: Greek & Roman Art</title>
+    <title>Snakes & Ladders: Wheel of Fortuna</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -13,11 +13,14 @@
         </div>
 
         <div class="controls-section">
-            <h1>Snakes & Ladders: Greek & Roman Art</h1>
+            <h1>Wheel of Fortuna</h1>
             
             <div class="game-info">
                 <div id="turn-indicator" class="turn-indicator">Player 1's Turn</div>
-                <div id="dice-display" class="dice-display">Roll the die</div>
+                <div id="dice-display" class="dice-display">
+                    <span id="dice-label">Roll the die</span>
+                    <img id="dice-image" class="dice-image hidden" src="" alt="Dice roll result">
+                </div>
                 <button id="roll-btn" class="roll-btn">Roll Die</button>
             </div>
 

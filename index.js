@@ -9,6 +9,15 @@ const PLAYER_IMAGES = [
     'Images/Pieces/player2_piece.png'
 ];
 
+const DICE_IMAGES = {
+    1: 'Images/Misc/dice-six-faces-one.png',
+    2: 'Images/Misc/dice-six-faces-two.png',
+    3: 'Images/Misc/dice-six-faces-three.png',
+    4: 'Images/Misc/dice-six-faces-four.png',
+    5: 'Images/Misc/dice-six-faces-five.png',
+    6: 'Images/Misc/dice-six-faces-six.png'
+};
+
 let playerPositions = [0, 0];
 let currentPlayer = 0;
 let gameOver = false;
@@ -17,6 +26,8 @@ let questionPending = false;
 const boardElement = document.getElementById('board');
 const turnIndicatorElement = document.getElementById('turn-indicator');
 const diceDisplayElement = document.getElementById('dice-display');
+const diceLabelElement = document.getElementById('dice-label');
+const diceImageElement = document.getElementById('dice-image');
 const rollBtn = document.getElementById('roll-btn');
 
 const questionModal = document.getElementById('question-modal');
@@ -125,12 +136,26 @@ function switchTurn() {
     currentPlayer = currentPlayer === 0 ? 1 : 0;
 }
 
+function showDiceResult(roll) {
+    diceLabelElement.textContent = `Player ${currentPlayer + 1} rolled`;
+    diceImageElement.src = DICE_IMAGES[roll];
+    diceImageElement.classList.remove('hidden');
+}
+
+function resetDiceDisplay() {
+    diceLabelElement.textContent = 'Roll the die';
+    diceImageElement.classList.add('hidden');
+    diceImageElement.src = '';
+    const winnerMessage = diceDisplayElement.querySelector('.winner-message');
+    if (winnerMessage) winnerMessage.remove();
+}
+
 function endTurn() {
     if (gameOver) return;
 
     switchTurn();
     updateTurnIndicator();
-    diceDisplayElement.textContent = 'Roll the die';
+    resetDiceDisplay();
     rollBtn.disabled = false;
     questionPending = false;
 }
@@ -248,7 +273,7 @@ function restartGame() {
     createBoard();
     renderPieces();
     updateTurnIndicator();
-    diceDisplayElement.textContent = 'Roll the die';
+    resetDiceDisplay();
 }
 
 function handleRoll() {
@@ -261,7 +286,7 @@ function handleRoll() {
 
     rollBtn.disabled = true;
     const roll = rollDice();
-    diceDisplayElement.textContent = `Player ${currentPlayer + 1} rolled a ${roll}`;
+    showDiceResult(roll);
 
     movePlayer(currentPlayer, roll);
     renderPieces();
@@ -300,13 +325,14 @@ function resetGameState() {
 
 async function initGame() {
     try {
-        diceDisplayElement.textContent = 'Loading questions...';
+        diceLabelElement.textContent = 'Loading questions...';
+        diceImageElement.classList.add('hidden');
         await loadQuestions();
 
         resetGameState();
         QUESTIONS = selectRandomQuestions(QUESTIONS_PER_GAME);
 
-        diceDisplayElement.textContent = 'Roll the die';
+        resetDiceDisplay();
 
         createBoard();
         renderPieces();
