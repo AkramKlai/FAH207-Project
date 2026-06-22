@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snakes & Ladders: Greek & Roman Art</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="board-section">
+            <div id="board" class="board"></div>
+        </div>
+
+        <div class="controls-section">
+            <h1>Snakes & Ladders: Greek & Roman Art</h1>
+            
+            <div class="game-info">
+                <div id="turn-indicator" class="turn-indicator">Player 1's Turn</div>
+                <div id="dice-display" class="dice-display">Roll the die</div>
+                <button id="roll-btn" class="roll-btn">Roll Die</button>
+            </div>
+
+            <div class="legend">
+                <div class="legend-item">
+                    <img class="legend-piece" src="Images/Pieces/player1_piece.png" alt="Player 1">
+                    <span>Player 1</span>
+                </div>
+                <div class="legend-item">
+                    <img class="legend-piece" src="Images/Pieces/player2_piece.png" alt="Player 2">
+                    <span>Player 2</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="question-modal" class="question-modal hidden">
+        <div class="question-content">
+            <div id="question-artwork" class="question-artwork"></div>
+            <div id="question-text" class="question-text"></div>
+            <div id="question-options" class="question-options"></div>
+            <div id="question-feedback" class="question-feedback hidden"></div>
+            <button id="question-continue-btn" class="roll-btn hidden">Continue</button>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
