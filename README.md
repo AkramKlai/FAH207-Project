@@ -29,8 +29,5 @@ D [Option]
 Layout:
 - Board Size: 6x6 = 36 spaces
 - Start Square (on bottom right corner) and End Square (on top left corner)
-- Squares are numbered from bottom right to top left (Start = 0, End = 35)
-    - **Show the number on each square**
 - Both player pieces are in start square
-- **Show which player's turn it is**
 
