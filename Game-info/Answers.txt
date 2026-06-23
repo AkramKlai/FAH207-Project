@@ -1,75 +1,99 @@
 [TF] [Panathenaic Prize Amphora]
+True or False: this Panathenaic Prize Amphora predates the invention of the red-figure vase painting technique in Ancient Greece.
 B
 The Panathenaic Prize Amphora dates to c. 500 BCE, roughly 20 years after the introduction of the red-figure technique to Greek society. Panathenaic Prize Amphora deliberately used the black-figure technique as per tradition.
 
 [MCQ] [Revellers]
+Artist Euthymides belonged to a group of innovative artists referred to as the "Pioneers." Which of the Pioneers' advancements is visible in this work?
 A
 The depiction of bodies in three-quarters perspective.
 
 [MCQ] [Anavysos Kouros, New York Kouros]
+Which of these Kouroi is more heavily influenced by Egyptian sculpture?
 B
 The New York Kouros c.600 BCE shows stronger Egyptian influence. Its rigid frontal stance and geometric proportions closely resemble Egyptian statues. The Anavysos Kouros shows more realistic musculature and proportion, reflecting the Greek move toward naturalism.
 
 [MCQ] [Phrasiklea]
+What does the Phrasikleia Kore most clearly represent?
 C
 Eternal maidenhood and a life cut short. The Phrasikleia Kore is a funerary statue that commemorates a woman who died before marriage. The inscribed base of the sculpture emphasizes that the woman was chosen by the gods to remain a maiden forever.
 
 [MCQ] [Augustus, Pompey]
+Which of these portraits would be described as "veristic"?
 B
 Portrait of Pompey (c. 50 BCE) can be identified as veristic by its idiosyncratic features and noticeably lined face. The Portrait of Augustus (c. 20 BCE), with its longer nose, fuller lips, and close-cropped hairstyle, is more aligned with the idealized, classical style, such as Polykleitos' Doryphoros (c. 440 BCE).
 
 [MCQ] [Flavian Lady]
+Women's portraiture in the time of the Flavians often emphasized one specific trait. What was that one specific trait?
 B
 Thickly-curled Hairstyle; this halo-shaped curly hairstyle was popularized by Domitia, wife of Emperor Domitian.
 
 [MCQ] [Doryphoros]
+Polykleitos' Doryphoros sculpture is regarded as "the canon" of human proportions in the Classical period of Ancient Greece. Which of the following is not true about its proportions?
 C
 Constructed with 1:8 head-to-body ratio of proportions; Doryphoros is constructed with a 1:7 head-to-body ratio. Lysippos would implement the 1:8 head-to-body ratio in his work years later.
 
 [MCQ] [Seated Boxer]
+Which of the following is true about this sculpture?
 B
 It depicts a subject regarded as an "other" in society; this defeated, battered, and aging athlete represents the lower end of society. His impressive musculature is contrasted with a scarred, weathered face. He can be described as individual rather than ideal, admired perhaps for his endurance, but not beauty.
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Chigi Vase]
+The Chigi Vase is often connected to the Orientalizing Period. Which feature best fits this period?
 B
 Influence from Near Eastern motifs and more complex figural scenes; The Orientalizing Period included closer contact with the Near East and the development of new subjects, materials, and more narrative imagery.
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Andokides Bilingual Amphora]
+Why is the Andokides Amphora called "bilingual"?
 C
 It shows both black-figure and red-figure vase painting techniques; Bilingual vases show the transition between the older black-figure technique and the newer red-figure technique.
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Portrait of Vespasian]
+Compared with Augustus' idealized portrait style, what is different about Vespasian's portrait?
 A
 It presents him with more realistic, older facial features; Vespasian's portrait is closer to Roman veristic traditions and gives him a more practical, mature, and realistic image.
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Parthenon]
+Which architectural feature is most strongly associated with the Parthenon?
 A
 A large concrete dome with an oculus; The Pantheon is famous for its massive concrete dome and central oculus, which are major achievements of Roman architecture.
 
 [MCQ] [Aphrodite of Knidos]
+Why was the Aphrodite of Knidos revolutionary?
 C
 It was the first life-size Greek nude female sculpture. It was revolutionary as it broke the longstanding tradition that only depicted male figures nude. It would also become one of the most widely copied statues of the ancient world.
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Lefkandi Centaur]
+Why is the Lefkandi Centaur considered a significant work in the chronology of Greek Art?
 B
-It is the earliest surviving example of Greek Art depicting a creature from myth.
+It is the earliest surviving example of Greek Art depicting a creature from myth (c.900BCE). This is the first surviving reference to a creature in Greek Myth after the bronze age collapse and subsequent dark ages. Some scholars identify this centaur as Chiron, the mentor of Achilles, through the wound on his knee which is associated with Herakles. The next known artistic references to myth would be in the geometric period.
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Portrait of Livia]
+The popularity of Livia's Nodus Coiffure demonstrates that Roman Imperial Portraits:
 D
-The influence of the imperial family on elite cultural practices.
+The influence of the imperial family on elite cultural practices. The Nodus Coiffure hairstyle was emulated by aristocratic women and projects their modesty, virtue and adherence to traditional Roman ideals.
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Dionysus Kylix Exekias]
+As the symposium participant drank the wine from Exekias' Kylix, the images in the bottom of the cup gradually emerged. The visual effect reinforced which theme associated with Dionysus?
 B
-Transformation.
+Transformation. Dionysus is linked to altered states of being through theatre, wine and music. As the wine is drank from the kylix, the person becomes increasingly inebriated as the images gradually appear of Dionysus reclining in the ship, surrounded by the metamorphosis of the Tyrrhenian pirates into dolphins.
+
+[MCQ] [Venus genetrix denari coin, Caesar Denari coin, Pompey Denari coin]
+Which of the following depicts the first Roman politician to put their portraiture on coinage?
+B
+Denarius of Julius Caesar. Julius Caesar was the first Roman political leader to put his portrait on coinage. Breaking the Roman tradition of only depicting gods, goddesses or political symbols, never living individuals. This move was taboo and controversial as it equated one's rule with kingship, which was a threat to republican values.
 
 [TF] [Eleusis Amphora]
+True or False: The Eleusis Amphora depicts Herakles completing one of his twelve labours.
 B
 The Eleusis Amphora is a Protoattic amphora that depicts the blinding of Polyphemos and Perseus fleeing from the gorgons after the beheading of Medusa.
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Artemision God]
+The identity of the Artemision God is uncertain because the missing object in his hand could identify him as either Zeus or Poseidon. Which object would identify him as Poseidon?
 B
-Naturalistic anatomy, movement, and contrapposto. The Riace Warriors belong to the Early Classical period and show a major shift away from the rigid Archaic kouros type. Their bodies are more naturalistic, with detailed muscles, balanced posture, and a stronger sense of living movement.
+A trident. The Artemision God is usually identified as either Zeus or Poseidon. If he originally held a thunderbolt, he would be Zeus; if he held a trident, he would be Poseidon.
 
-[MCQ] [Augustus]
+[MCQ] [Augustus of Prima Porta]
+Which feature of Augustus of Prima Porta connects Augustus to divine ancestry?
 B
 The Cupid figure beside his leg. Cupid refers to Venus, since Cupid was the son of Venus. This connects Augustus to the Julian family's claimed descent from Venus and helps present him as more than an ordinary political leader.

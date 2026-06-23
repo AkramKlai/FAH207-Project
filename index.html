@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snakes & Ladders: Wheel of Fortuna</title>
+    <title>Snakes & Ladders: Gorgons & Temples</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="game-container">
         <div class="board-section">
+            <div class="column left-column"></div>
             <div id="board" class="board"></div>
+            <div class="column right-column"></div>
         </div>
 
         <div class="controls-section">
-            <h1>Wheel of Fortuna</h1>
+            <div class="title-logo">
+                <img src="Images/Misc/Gorgoneoin.png" class="gorgoneion-logo" alt="Gorgoneion">
+                <h1>Gorgons & Temples</h1>
+            </div>
             
             <div class="game-info">
                 <div id="turn-indicator" class="turn-indicator">Player 1's Turn</div>
                 <div id="dice-display" class="dice-display">
                     <span id="dice-label">Roll the die</span>
-                    <img id="dice-image" class="dice-image hidden" src="" alt="Dice roll result">
+                    <img id="dice-image" class="dice-image hidden" src="dice-six-faces-six.png" alt="">
                 </div>
                 <button id="roll-btn" class="roll-btn">Roll Die</button>
             </div>

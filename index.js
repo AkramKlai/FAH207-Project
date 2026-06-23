@@ -1,7 +1,7 @@
 const BOARD_SIZE = 6;
 const TOTAL_SQUARES = BOARD_SIZE * BOARD_SIZE;
 const WINNING_SQUARE = TOTAL_SQUARES - 1;
-const CORRECT_MOVE = 5;
+const CORRECT_MOVE = 3;
 const INCORRECT_MOVE = -3;
 
 const PLAYER_IMAGES = [
@@ -63,10 +63,6 @@ function createBoard() {
 
             if (isActionSpace(squareNumber)) {
                 square.classList.add('action-space');
-                const actionLabel = document.createElement('span');
-                actionLabel.classList.add('action-label');
-                actionLabel.textContent = '?';
-                square.appendChild(actionLabel);
             }
 
             const numberLabel = document.createElement('span');
@@ -136,10 +132,25 @@ function switchTurn() {
     currentPlayer = currentPlayer === 0 ? 1 : 0;
 }
 
-function showDiceResult(roll) {
-    diceLabelElement.textContent = `Player ${currentPlayer + 1} rolled`;
-    diceImageElement.src = DICE_IMAGES[roll];
+function animateDiceRoll(finalRoll, callback) {
     diceImageElement.classList.remove('hidden');
+    diceLabelElement.textContent = `Player ${currentPlayer + 1} rolls...`;
+
+    let intervalCount = 0;
+    const maxIntervals = 10;
+
+    const interval = setInterval(() => {
+        const randomFace = Math.floor(Math.random() * 6) + 1;
+        diceImageElement.src = DICE_IMAGES[randomFace];
+        intervalCount++;
+
+        if (intervalCount >= maxIntervals) {
+            clearInterval(interval);
+            diceImageElement.src = DICE_IMAGES[finalRoll];
+            diceLabelElement.textContent = `Player ${currentPlayer + 1} rolled`;
+            if (callback) callback();
+        }
+    }, 100);
 }
 
 function resetDiceDisplay() {
@@ -243,7 +254,8 @@ function applyQuestionResult(isCorrect) {
         ? `Correct! Move up ${CORRECT_MOVE} spaces.` 
         : `Incorrect. Move down ${Math.abs(INCORRECT_MOVE)} spaces.`;
     
-    diceDisplayElement.textContent = resultText;
+    diceLabelElement.textContent = resultText;
+    diceImageElement.classList.add('hidden');
     movePlayer(currentPlayer, movement);
     renderPieces();
 
@@ -252,16 +264,7 @@ function applyQuestionResult(isCorrect) {
         return;
     }
 
-    // Check if the new position is another action space
-    const currentPosition = playerPositions[currentPlayer];
-    const nextQuestion = getQuestionAtPosition(currentPosition);
-    if (nextQuestion) {
-        setTimeout(() => {
-            showQuestionModal(nextQuestion);
-        }, 500);
-        return;
-    }
-
+    // Only one question per turn; end turn after the question result movement
     setTimeout(() => {
         endTurn();
     }, 1000);
@@ -286,32 +289,33 @@ function handleRoll() {
 
     rollBtn.disabled = true;
     const roll = rollDice();
-    showDiceResult(roll);
 
-    movePlayer(currentPlayer, roll);
-    renderPieces();
+    animateDiceRoll(roll, () => {
+        movePlayer(currentPlayer, roll);
+        renderPieces();
 
-    if (checkWin(currentPlayer)) {
-        handleWin();
-        return;
-    }
+        if (checkWin(currentPlayer)) {
+            handleWin();
+            return;
+        }
 
-    const currentPosition = playerPositions[currentPlayer];
-    const question = getQuestionAtPosition(currentPosition);
+        const currentPosition = playerPositions[currentPlayer];
+        const question = getQuestionAtPosition(currentPosition);
 
-    if (question) {
+        if (question) {
+            setTimeout(() => {
+                showQuestionModal(question);
+            }, 500);
+            return;
+        }
+
         setTimeout(() => {
-            showQuestionModal(question);
-        }, 500);
-        return;
-    }
-
-    setTimeout(() => {
-        endTurn();
-    }, 1000);
+            endTurn();
+        }, 1000);
+    });
 }
 
-const QUESTIONS_PER_GAME = 10;
+const QUESTIONS_PER_GAME = 13;
 
 function resetGameState() {
     playerPositions = [0, 0];

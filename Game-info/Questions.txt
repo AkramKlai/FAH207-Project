@@ -48,29 +48,29 @@ B It depicts a subject regarded as an "other" in society
 C Its unidealized features are an example of Roman verism in portraiture
 D All of the above
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Chigi Vase]
 The Chigi Vase is often connected to the Orientalizing Period. Which feature best fits this period?
 A Strict geometric patterns with no narrative scenes
 B Influence from Near Eastern motifs and more complex figural scenes
 C Roman imperial portraiture
 D Christian symbolism
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Andokides Bilingual Amphora]
 Why is the Andokides Amphora called "bilingual"?
 A It includes both Greek and Latin writing
 B It combines Greek and Egyptian gods
 C It shows both black-figure and red-figure vase painting techniques
 D It was used in both Greek and Roman rituals
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Portrait of Vespasian]
 Compared with Augustus' idealized portrait style, what is different about Vespasian's portrait?
 A It presents him with more realistic, older facial features
 B It shows him as a nude Greek athlete
 C It removes all individual facial details
 D It uses only painted decoration instead of sculpture
 
-[MCQ] [Anavysos Kouros]
-Which architectural feature is most strongly associated with the Pantheon?
+[MCQ] [Parthenon]
+Which architectural feature is most strongly associated with the Parthenon?
 A A large concrete dome with an oculus
 B A black-figure painted surface
 C A Greek kouros figure
@@ -83,40 +83,46 @@ B It was one of the first sculptures to depict Aphrodite
 C It was the first life-size Greek nude female sculpture
 D It was painted entirely with gold
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Lefkandi Centaur]
 Why is the Lefkandi Centaur considered a significant work in the chronology of Greek Art?
 A It is the first example of Terracotta art
 B It is the earliest surviving example of Greek Art depicting a creature from myth
 C It is a portrait of a hero buried in the Lefkandi Toumba
 D It is a funerary object dedicated to Chiron
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Portrait of Livia]
 The popularity of Livia's Nodus Coiffure demonstrates that Roman Imperial Portraits:
 A Display the persistence of republican imagery
 B Indicate military rank and authority
 C Function as religious images
 D Showcase the influence of the imperial family on elite cultural practices
 
-[MCQ] [Anavysos Kouros]
+[MCQ] [Dionysus Kylix Exekias]
 As the symposium participant drank the wine from Exekias' Kylix, the images in the bottom of the cup gradually emerged. The visual effect reinforced which theme associated with Dionysus?
 A Military Conquest
 B Transformation
 C Democracy
 D Winemaking
 
+[MCQ] [Venus genetrix denari coin, Caesar Denari coin, Pompey Denari coin]
+Which of the following depicts the first Roman politician to put their portraiture on coinage?
+A Denarius with Venus Genetrix Silver
+B Denarius of Julius Caesar
+C Denarius of Pompey
+
 [TF] [Eleusis Amphora]
 True or False: The Eleusis Amphora depicts Herakles completing one of his twelve labours.
 A True
 B False
 
-[MCQ] [Anavysos Kouros]
-The Riace Warriors are best known for which major development in Greek sculpture?
-A Rigid frontal posture and the Archaic smile
-B Naturalistic anatomy, movement, and contrapposto
-C Veristic wrinkles and signs of old age
-D Flat, symbolic figures with little anatomical detail
+[MCQ] [Artemision God]
+The identity of the Artemision God is uncertain because the missing object in his hand could identify him as either Zeus or Poseidon. Which object would identify him as Poseidon?
+A A thunderbolt
+B A trident
+C A laurel wreath
+D A shield
 
-[MCQ] [Augustus]
+[MCQ] [Augustus of Prima Porta]
 Which feature of Augustus of Prima Porta connects Augustus to divine ancestry?
 A His bare feet
 B The Cupid figure beside his leg
